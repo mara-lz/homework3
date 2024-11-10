@@ -1,0 +1,5 @@
+.idea
+films/.idea
+offers/.idea
+films/node_modules
+offers/node_modules
