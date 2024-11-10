@@ -14,7 +14,7 @@ function Listing({items}:ListingProps) {
             {
                 itemsProp.map((item) => {
                     return (
-                            <ListItem item={item}/>
+                            <ListItem key={item.listingId} item={item}/>
                     )
                 })
             }
